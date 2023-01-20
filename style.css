@@ -105,17 +105,16 @@
     display: flex;
     justify-content: space-evenly;
 }
-.div1{
+/* .div1{
     height: 400px;
     width: 500px;
 }
 .div2{
     height: 600px;
     width: 500px;
-}
+} */
 #p1{
     font-size: 40px;
-
     color: yellow;
 }
 
@@ -136,12 +135,7 @@
     }
     .mid-content {
         display: block;
-    }
-    .p1{
-        font-size: 20px;
-    }
-    .div2{
-        margin-top: 14%;
+        margin-left: 0%;
     }
     .about-nft{
         height: 1100px;
@@ -190,6 +184,9 @@
     .for-mobile {
         display: none;
     }
+    #p1{
+        font-size: 30px;
+    }
 }
 
 @media only screen and (max-width:600px) {
@@ -224,5 +221,21 @@
         color: rgb(255, 255, 255);
         font-size: 30px;
         font-family: Georgia, Times, 'Times New Roman', serif
+    }
+    .mid-content {
+        display: block;
+        margin-left: 5%;
+    }
+    .about-nft{
+        height: 1200px;
+    }
+    #p1{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:500px){
+    .about-nft{
+        height: 800px;
+        background-image: url(imaes/400.jpg);
     }
 }
