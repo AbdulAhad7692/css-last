@@ -1,0 +1,228 @@
+.bg-img {
+    background-image: url(imaes/1000px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-content {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    height: 70px;
+    width: 900px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-text {
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.nav-text:hover {
+    color: orange;
+}
+
+.form {
+    height: 30px;
+    width: 200px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+#t-content {
+    line-height: 5px;
+    margin-left: 10%;
+    color: white;
+    font-size: 72px;
+    display: flex;
+}
+
+.wallet {
+    height: 60px;
+    width: 210px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallet {
+    margin-left: 40%;
+}
+
+.wallet-im {
+    justify-content: left;
+}
+
+.wallet-im2 {
+    justify-content: right;
+}
+
+.wallet-box {
+    height: 50px;
+    width: 150px;
+    border: none;
+    display: flex;
+    border-radius: 25px;
+}
+
+.about-nft {
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 800px;
+    background-image: url(imaes/2nd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.line {
+    height: 10px;
+    width: 100%;
+    background-color: black;
+}
+
+.h3 {
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-family: Georgia, Times, 'Times New Roman', serif
+}
+
+.mid-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+.div1{
+    height: 400px;
+    width: 500px;
+}
+.div2{
+    height: 600px;
+    width: 500px;
+}
+#p1{
+    font-size: 40px;
+
+    color: yellow;
+}
+
+@media only screen and (max-width:950px) {
+    .nav-content {
+        height: 70px;
+        width: 700px;
+    }
+
+    .nav-mobile {
+        display: none;
+    }
+
+    .h3 {
+        color: rgb(255, 255, 255);
+        font-size: 45px;
+        font-family: Georgia, Times, 'Times New Roman', serif
+    }
+    .mid-content {
+        display: block;
+    }
+    .p1{
+        font-size: 20px;
+    }
+    .div2{
+        margin-top: 14%;
+    }
+    .about-nft{
+        height: 1100px;
+    }
+}
+
+@media only screen and (max-width:980px) {
+    .bg-img {
+        background-image: url(imaes/bg-img-1200.jpg);
+    }
+
+    #t-content {
+        font-size: 50px;
+        margin-left: 50%;
+        display: flex;
+        justify-content: left;
+    }
+
+    .nav-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .bg-img {
+        background-image: url(imaes/bg-img-11000.jpg);
+    }
+
+    #t-content {
+        line-height: 0cm;
+        font-size: 40px;
+        margin-left: 4%;
+        display: flex;
+        justify-content: left;
+        color: rgb(241, 241, 241);
+    }
+
+    .b-600 {
+        display: flex;
+    }
+
+    .wallet {
+        margin-left: 35%;
+    }
+
+    .for-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .nav-content {
+        display: none;
+    }
+
+    .for-mobile {
+        display: block;
+    }
+
+    .nav-mobile {
+        height: 80px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .l-f-m {
+        padding-left: 20px;
+        height: 60px;
+    }
+
+    .btn {
+        padding-top: 13px;
+        height: 50px;
+        padding-right: 10px;
+    }
+    .h3{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-family: Georgia, Times, 'Times New Roman', serif
+    }
+}
