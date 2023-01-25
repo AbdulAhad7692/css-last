@@ -1,0 +1,463 @@
+.bg-img {
+    background-image: url(imaes/1000px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-content {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    height: 70px;
+    width: 1500px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-text {
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.nav-text:hover {
+    color: orange;
+}
+
+.form {
+    height: 30px;
+    width: 200px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+#t-content {
+    line-height: 5px;
+    margin-left: 10%;
+    color: white;
+    font-size: 72px;
+    display: flex;
+}
+
+.wallet {
+    height: 60px;
+    width: 210px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallet {
+    margin-left: 40%;
+}
+
+.wallet-im {
+    justify-content: left;
+}
+
+.wallet-im2 {
+    justify-content: right;
+}
+
+.wallet-box {
+    height: 50px;
+    width: 150px;
+    border: none;
+    display: flex;
+    border-radius: 25px;
+}
+
+.about-nft {
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 700px;
+    background-image: url(imaes/2nd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.line {
+    height: 10px;
+    width: 100%;
+    background-color: black;
+}
+
+.headin3 {
+    color: rgb(255, 255, 255);
+    margin-top: 0%;
+    font-size: 72px;
+    font-family: Georgia, Times, 'Times New Roman', serif
+}
+
+.mid-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#p1 {
+    font-size: 40px;
+    color: yellow;
+}
+
+.cards {
+    background: rgb(82, 0, 255);
+    background: linear-gradient(0deg, rgb(6, 0, 90) 0%, rgba(9, 26, 121, 1) 50%, rgb(0, 1, 48) 100%);
+    height: 240px;
+    width: 100%;
+}
+
+.card1 {
+    margin-top: 20px;
+    background-color: rgb(9, 6, 27);
+    height: 170px;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: rgb(78, 78, 78);
+    transition: all .3s ease;
+}
+.card1:hover{
+    border-color: white;
+}
+
+.card-alignment {
+    display: flex;
+    justify-content: space-evenly;
+}
+.avatars{
+    border-radius: 50px;
+    height: 100px;
+    margin-top: 40px;
+}
+.div-text{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.card-text{
+    color: white;
+    font-size: 20px;
+    line-height: 0.5px;
+}
+
+@media only screen and (max-width:950px) {
+    .nav-content {
+        height: 70px;
+        width: 700px;
+    }
+
+    .nav-mobile {
+        display: none;
+    }
+
+    .headin3 {
+        color: rgb(255, 255, 255);
+        font-size: 45px;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        margin-top: 0%;
+    }
+
+    .mid-content {
+        display: block;
+        margin-left: 0%;
+    }
+
+    .about-nft {
+        height: 1100px;
+    }
+    .card-alignment{
+        display: block;
+        margin-left: 90px;
+    }
+    .card1{
+        width: 550px;
+        
+    }
+    .cards {
+        background: rgb(82, 0, 255);
+        background: linear-gradient(0deg, rgb(6, 0, 90) 0%, rgba(9, 26, 121, 1) 50%, rgb(0, 1, 48) 100%);
+        height: 640px;
+        padding-top: 10px;
+    }
+    .card1:hover{
+        border-color: white;
+    }
+}
+
+@media only screen and (max-width:980px) {
+    .bg-img {
+        background-image: url(imaes/bg-img-1200.jpg);
+    }
+
+    #t-content {
+        font-size: 50px;
+        margin-left: 50%;
+        display: flex;
+        justify-content: left;
+    }
+
+    .nav-mobile {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:750px) {
+    .bg-img {
+        background-image: url(imaes/bg-img-11000.jpg);
+    }
+
+    #t-content {
+        line-height: 0cm;
+        font-size: 40px;
+        margin-left: 4%;
+        display: flex;
+        justify-content: left;
+        color: rgb(241, 241, 241);
+    }
+
+    .b-600 {
+        display: flex;
+    }
+
+    .wallet {
+        margin-left: 35%;
+    }
+
+    .for-mobile {
+        display: none;
+    }
+
+    #p1 {
+        font-size: 30px;
+    }
+    .card-alignment{
+        display: block;
+        margin-left: 90px;
+    }
+    .card1{
+        width: 450px;
+        
+    }
+    .cards {
+        background: rgb(82, 0, 255);
+        background: linear-gradient(0deg, rgb(6, 0, 90) 0%, rgba(9, 26, 121, 1) 50%, rgb(0, 1, 48) 100%);
+        height: 640px;
+        padding-top: 10px;
+    }
+    .card1:hover{
+        border-color: white;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .nav-content {
+        display: none;
+    }
+
+    .for-mobile {
+        display: block;
+    }
+
+    .nav-mobile {
+        height: 80px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .l-f-m {
+        padding-left: 20px;
+        height: 60px;
+    }
+
+    .btn {
+        padding-top: 13px;
+        height: 50px;
+        padding-right: 10px;
+    }
+
+    .headin3 {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        margin-top: 0%;
+    }
+
+    .mid-content {
+        display: block;
+        margin-left: 5%;
+    }
+
+    .about-nft {
+        height: 1200px;
+    }
+
+    #p1 {
+        font-size: 20px;
+    }
+    .card-alignment{
+        display: block;
+        margin-left: 90px;
+    }
+    .card1{
+        width: 350px;
+        
+    }
+    .cards {
+        background: rgb(82, 0, 255);
+        background: linear-gradient(0deg, rgb(6, 0, 90) 0%, rgba(9, 26, 121, 1) 50%, rgb(0, 1, 48) 100%);
+        height: 640px;
+        padding-top: 10px;
+    }
+    .card1:hover{
+        border-color: white;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .about-nft {
+        height: 800px;
+        background-image: url(imaes/400.jpg);
+    }
+    .card-alignment{
+        display: block;
+        margin-left: 90px;
+    }
+    .card1{
+        width: 250px;
+        
+    }
+    .cards {
+        background: rgb(82, 0, 255);
+        background: linear-gradient(0deg, rgb(6, 0, 90) 0%, rgba(9, 26, 121, 1) 50%, rgb(0, 1, 48) 100%);
+        height: 640px;
+        padding-top: 10px;
+    }
+    .card1:hover{
+        border-color: white;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .bg-img {
+        background-image: url(imaes/oku.jpg);
+    }
+
+    #p1 {
+        font-size: 15px;
+    }
+
+    #div2w {
+        width: 200px;
+    }
+
+    .about-nft {
+        height: 500px;
+        background-image: url(imaes/400.jpg);
+    }
+
+    .wallet {
+        margin-left: 20%;
+        width: 150px;
+        height: 30px;
+    }
+
+    .wallet-im {
+        height: 10px;
+    }
+
+    .wallet-im2 {
+        height: 10px;
+    }
+
+    .wallet-box {
+        height: 20px;
+        width: 100px;
+    }
+
+    #t-content {
+        font-size: 20px;
+    }
+
+    .nav-mobile {
+        height: 30px;
+    }
+
+    .l-f-m {
+        padding-top: 10px;
+        height: 20px;
+    }
+
+    .btn {
+        height: 20px;
+    }
+    .card-alignment{
+        display: block;
+        margin-left: 5%;
+    }
+    .card1{
+        width: 250px;
+        
+    }
+    .cards {
+        background: rgb(82, 0, 255);
+        background: linear-gradient(0deg, rgb(6, 0, 90) 0%, rgba(9, 26, 121, 1) 50%, rgb(0, 1, 48) 100%);
+        height: 640px;
+        padding-top: 10px;
+    }
+    .card1:hover{
+        border-color: white;
+    }
+    .card-text{
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width:340px) {
+    .headin3 {
+        font-size: 20px;
+        margin-top: 0%;
+    }    
+    .card-alignment{
+        display: block;
+        margin-left: 20px;
+    }
+    .card1{
+        width: 250px;
+        
+    }
+    .cards {
+        background: rgb(82, 0, 255);
+        background: linear-gradient(0deg, rgb(6, 0, 90) 0%, rgba(9, 26, 121, 1) 50%, rgb(0, 1, 48) 100%);
+        height: 640px;
+        padding-top: 10px;
+    }
+    .card1:hover{
+        border-color: white;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+
+}
