@@ -114,7 +114,7 @@
 
 .cards {
     background: rgb(82, 0, 255);
-    background: linear-gradient(0deg, rgb(6, 0, 90) 0%, rgba(9, 26, 121, 1) 50%, rgb(0, 1, 48) 100%);
+    background: linear-gradient(0deg, rgb(15, 3, 126) 0%, rgb(5, 19, 88) 50%, rgb(8, 8, 14) 100%);
     height: 240px;
     width: 100%;
 }
@@ -131,7 +131,8 @@
     border-color: rgb(78, 78, 78);
     transition: all .3s ease;
 }
-.card1:hover{
+
+.card1:hover {
     border-color: white;
 }
 
@@ -139,20 +140,93 @@
     display: flex;
     justify-content: space-evenly;
 }
-.avatars{
+
+.avatars {
     border-radius: 50px;
     height: 100px;
     margin-top: 40px;
 }
-.div-text{
+
+.div-text {
     margin-top: 50px;
     margin-left: 10px;
 }
-.card-text{
+
+.card-text {
     color: white;
     font-size: 20px;
     line-height: 0.5px;
 }
+
+.items-alignment {
+    background: rgb(82, 0, 255);
+    background: linear-gradient(180deg, rgba(15, 2, 126, 1) 0%, rgba(9, 26, 121, 1) 0%, rgba(2, 3, 33, 1) 100%);
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+.items-2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.items-2p {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.items-card {
+    background: rgb(77, 48, 136);
+    background: radial-gradient(circle, rgba(77, 48, 136, 1) 14%, rgba(72, 0, 130, 1) 100%);
+    height: 430px;
+    width: 250px;
+    border-radius: 15px;
+}
+.adi{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.items-content{
+    display: flex;
+}
+.items-content>p{
+    padding-top: 10px;
+    margin-left: 10px;
+    color: white;
+    
+}
+.it-im{
+    width: 220px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.bid{
+    color: white;
+    font-size: 20px;
+    margin-top: 0%;
+}
+.bid-t{
+    display: flex;
+    justify-content: space-around;
+}
+.imm{
+    border-radius: 45px;
+    height: 30px;
+    margin-left: 20px;
+    transition: all .7s ease;
+    cursor: pointer;
+}
+.imm:hover{
+    opacity: 0.7;
+    transform: scale(1.05);
+}
+
 
 @media only screen and (max-width:950px) {
     .nav-content {
@@ -179,21 +253,25 @@
     .about-nft {
         height: 1100px;
     }
-    .card-alignment{
+
+    .card-alignment {
         display: block;
         margin-left: 90px;
     }
-    .card1{
+
+    .card1 {
         width: 550px;
-        
+
     }
+
     .cards {
         background: rgb(82, 0, 255);
         background: linear-gradient(0deg, rgb(6, 0, 90) 0%, rgba(9, 26, 121, 1) 50%, rgb(0, 1, 48) 100%);
         height: 640px;
         padding-top: 10px;
     }
-    .card1:hover{
+
+    .card1:hover {
         border-color: white;
     }
 }
@@ -245,21 +323,25 @@
     #p1 {
         font-size: 30px;
     }
-    .card-alignment{
+
+    .card-alignment {
         display: block;
         margin-left: 90px;
     }
-    .card1{
+
+    .card1 {
         width: 450px;
-        
+
     }
+
     .cards {
         background: rgb(82, 0, 255);
         background: linear-gradient(0deg, rgb(6, 0, 90) 0%, rgba(9, 26, 121, 1) 50%, rgb(0, 1, 48) 100%);
         height: 640px;
         padding-top: 10px;
     }
-    .card1:hover{
+
+    .card1:hover {
         border-color: white;
     }
 }
@@ -312,21 +394,25 @@
     #p1 {
         font-size: 20px;
     }
-    .card-alignment{
+
+    .card-alignment {
         display: block;
         margin-left: 90px;
     }
-    .card1{
+
+    .card1 {
         width: 350px;
-        
+
     }
+
     .cards {
         background: rgb(82, 0, 255);
         background: linear-gradient(0deg, rgb(6, 0, 90) 0%, rgba(9, 26, 121, 1) 50%, rgb(0, 1, 48) 100%);
         height: 640px;
         padding-top: 10px;
     }
-    .card1:hover{
+
+    .card1:hover {
         border-color: white;
     }
 }
@@ -336,24 +422,29 @@
         height: 800px;
         background-image: url(imaes/400.jpg);
     }
-    .card-alignment{
+
+    .card-alignment {
         display: block;
         margin-left: 90px;
     }
-    .card1{
+
+    .card1 {
         width: 250px;
-        
+
     }
+
     .cards {
         background: rgb(82, 0, 255);
         background: linear-gradient(0deg, rgb(6, 0, 90) 0%, rgba(9, 26, 121, 1) 50%, rgb(0, 1, 48) 100%);
         height: 640px;
         padding-top: 10px;
     }
-    .card1:hover{
+
+    .card1:hover {
         border-color: white;
     }
-    .card-text{
+
+    .card-text {
         font-size: 10px;
     }
 }
@@ -411,24 +502,29 @@
     .btn {
         height: 20px;
     }
-    .card-alignment{
+
+    .card-alignment {
         display: block;
         margin-left: 5%;
     }
-    .card1{
+
+    .card1 {
         width: 250px;
-        
+
     }
+
     .cards {
         background: rgb(82, 0, 255);
         background: linear-gradient(0deg, rgb(6, 0, 90) 0%, rgba(9, 26, 121, 1) 50%, rgb(0, 1, 48) 100%);
         height: 640px;
         padding-top: 10px;
     }
-    .card1:hover{
+
+    .card1:hover {
         border-color: white;
     }
-    .card-text{
+
+    .card-text {
         font-size: 15px;
     }
 
@@ -438,25 +534,30 @@
     .headin3 {
         font-size: 20px;
         margin-top: 0%;
-    }    
-    .card-alignment{
+    }
+
+    .card-alignment {
         display: block;
         margin-left: 20px;
     }
-    .card1{
+
+    .card1 {
         width: 250px;
-        
+
     }
+
     .cards {
         background: rgb(82, 0, 255);
         background: linear-gradient(0deg, rgb(6, 0, 90) 0%, rgba(9, 26, 121, 1) 50%, rgb(0, 1, 48) 100%);
         height: 640px;
         padding-top: 10px;
     }
-    .card1:hover{
+
+    .card1:hover {
         border-color: white;
     }
-    .card-text{
+
+    .card-text {
         font-size: 10px;
     }
 
